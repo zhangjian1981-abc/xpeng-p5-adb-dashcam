@@ -82,6 +82,16 @@ sh /sdcard/p5dashcam/screenrecord_loop.sh
 
 这个项目需要真车验证：不同系统版本、分辨率、存储空间下的表现差异很大。欢迎提交测试报告、适配补丁和新方案。详见 [CONTRIBUTING.md](CONTRIBUTING.md) 与 [docs/TESTING.md](docs/TESTING.md)。
 
+### 招募贡献者
+
+项目处于早期阶段，**急需真车测试**。如果你有已开通 ADB 的 P5，可以：
+
+- 运行 `00_probe.bat` 并提交一份兼容性报告（只需 2 分钟）
+- 实测循环录像，反馈结果
+- 提出改进建议（省电、自动上传、碰撞事件触发等）
+
+**不会写代码也能贡献** —— 一份测试报告和一段补丁代码同样有价值。测试清单见 [docs/TESTING.md](docs/TESTING.md)，或直接在 Issue 区开一个 "Compatibility report"。
+
 ## 安全声明
 
 - 行驶中让中控屏常驻 360 影像会遮挡导航、分散注意力。请在停车时设置，行驶中不要手动操作。
