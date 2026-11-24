@@ -82,6 +82,16 @@ sh /sdcard/p5dashcam/screenrecord_loop.sh
 
 This project needs real-car validation: behavior varies widely across OS versions, resolutions and storage sizes. Test reports, compatibility patches and new approaches are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) and [docs/TESTING.md](docs/TESTING.md).
 
+### Call for contributors
+
+This project is at an early stage and **needs real-car testing**. If you own a P5 with ADB enabled, you can help by:
+
+- Running `00_probe.bat` and submitting a compatibility report (2 minutes)
+- Testing the recording loop and reporting the results
+- Suggesting improvements (power saving, auto-upload, event triggers, etc.)
+
+**No coding required to contribute** — a test report is as valuable as a patch. See the [test checklist](docs/TESTING.md), or open a "Compatibility report" issue directly.
+
 ## Safety notice
 
 - Keeping the 360° view on screen while driving obstructs navigation and distracts the driver. Set it up while parked; do not operate it while driving.
